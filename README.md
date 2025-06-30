@@ -4,10 +4,11 @@ ClockworkMusic is a music-theory helper built with Next.js. The goal of the proj
 
 ## Getting Started
 
-Navigate to the app directory and start the development server:
+Navigate to the app directory, install dependencies, and start the development server:
 
 ```bash
 cd clockworkmusic
+npm install
 npm run dev
 ```
 
@@ -18,6 +19,7 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 To create an optimized production build:
 
 ```bash
+cd clockworkmusic
 npm run build
 npm start
 ```
